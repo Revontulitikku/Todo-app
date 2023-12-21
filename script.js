@@ -16,6 +16,8 @@ document.querySelector('.add-new-item span').addEventListener('click', () => {
     }
 });
 
+
+
 newItemInput.addEventListener('keypress', (e) => {
     if (e.charCode === 13 && newItemInput.value.length > 0) {
         createNewTodoItem(newItemInput.value);
